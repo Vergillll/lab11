@@ -1,0 +1,8 @@
+P = float(input())
+V = 1000
+k = 0
+while V <= 1100:
+    V = V + V*P/100
+    k +=1
+print("Mounths: " + str(k))
+print("Capital: " + str(V))
