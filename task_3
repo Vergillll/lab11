@@ -1,0 +1,10 @@
+N = int(input())
+K = 0
+j = 0
+while j < N:
+    K+=1
+    j+=K
+    print(K)
+    print(j)
+print("Num = "+str(K))
+print("Sum = "+str(j))
