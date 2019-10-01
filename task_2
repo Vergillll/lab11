@@ -1,0 +1,7 @@
+A = int(input())
+B = int(input())
+j = A
+while j >= 0:
+    j -= B
+    print(j)
+print(j+B)
